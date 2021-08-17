@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^5.1.0",
+    "emailjs-com": "^3.2.0",
     "next": "11.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^1.6.1",
+    "react-chatbot-kit": "^1.1.20",
+    "react-dom": "17.0.2",
+    "react-inner-image-zoom": "^2.0.3",
+    "sweetalert2": "^11.1.2"
   }
 }
