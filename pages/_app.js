@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
             <meta charset="utf-8" />
             <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta property="og:url" content="https://annedenicourt.com/" />
+            <meta property="og:url" content="https://chat-bot-anne-denicourt.vercel.app/" />
             <meta property="og:title" content="Chatter avec Anne D. Développeur Web" />
             <meta property="og:image" content="https://annedenicourt.com/images/laptop.png" />
             <meta property="og:description" content="Chat avec Anne Denicourt développeur web" />

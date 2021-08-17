@@ -1,17 +1,41 @@
 .zoom {
-    width: 60%;
+    width: 65%;
 }
 .bg_chat {
     background-color: #2b3d6d;
+}
+.citation {
+    width: 75%;
 }
 .citation::after {
     content: "";
     display: block;
     background-color: #F4DB7D;
     height: 15px;
-    width: 55%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -13px;
     margin-bottom: 0px;
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+    .zoom {
+        width: 100%;
+    }
+    .citation::after {
+        content: "";
+        display: none
+      }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .citation {
+        width: 50%;
+    }
+    .citation::after {
+        content: "";
+        width: 70%;
+        
+      }
   }
