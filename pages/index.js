@@ -6,7 +6,7 @@ import InnerImageZoom from 'react-inner-image-zoom';
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.min.css';
 
 
-const ChatComponent = dynamic(() => import('../components/Chatbot'), { ssr: false });
+const ChatComponent = dynamic(() => import('../components/ChatBot'), { ssr: false });
 
 export default function Home() {
     return (
